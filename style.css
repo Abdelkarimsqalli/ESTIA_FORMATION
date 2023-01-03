@@ -1,0 +1,255 @@
+.containerbody{
+    display:grid;
+    height: max-content;
+    grid-template-columns: 100%;
+    grid-template-rows: 3% 82% 15%;
+    grid-template-areas:
+    "containerheader"
+    "containerbody"
+    "footer";
+
+
+}
+.containerheader{
+    display:grid;
+    height: 100%;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 100%;
+    grid-template-areas:
+    "imglogo"
+    "navbar";
+
+}
+.navbar{
+    
+    list-style-type: none;
+    padding: 0;
+}
+.navbar li{
+    display: inline;
+    
+    
+}
+.navbar li a{
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+    color: black;
+    font-weight: bolder;
+    
+    
+}
+.imglogo{
+    margin-left: 150px;
+    width: 300px;
+    
+}
+.containermain{
+    margin: 0px;
+    display:grid;
+    height: max-content;
+    grid-template-columns: 100%;
+    grid-template-rows: 9% 50% 10% 3% 2% 26%;
+    grid-template-areas:
+    "blockbleu"
+    "blockbody"
+    "h1etlogo"
+    "partagerbar"
+    "blockorange"
+    "flexcontainer2";  
+
+}
+.blockbleu .mininavbar{
+    
+    list-style-type: none;
+    padding:0px;
+    margin: 20px 150px;
+}
+.blockbleu .mininavbar li{
+    display: inline;
+    color: white;
+    
+}
+.blockbleu .mininavbar li a{
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+    font-weight: bolder;
+    color: white;
+    font-size: smaller;
+    
+      
+}
+.blockbleu{
+    
+    
+    background-image: linear-gradient(to right, rgb(0, 42, 73), rgb(12, 138, 152));
+    
+
+}
+.blockbleu p {
+    margin: 20px 150px;
+    font-size: x-large;
+    font-weight: bolder;
+       
+}
+span{
+    background-image: linear-gradient(to right, rgb(255, 153, 0), rgb(255, 60, 0));
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 150px;
+   
+    
+}
+  
+.flex-container div {
+    margin:0px 2px;
+    cursor: pointer;
+    background-color: white;
+    
+  }
+
+.h1etlogo{
+    margin:0px 150px;
+}
+.partagerbar{
+    display:grid;
+    height: 100%;
+    grid-template-columns: 1% 99%;
+    grid-template-rows: 100%;
+    grid-template-areas:
+    "partager"
+    "blockpartager";
+    margin: 20px 0px 0px 150px;
+}
+.partager{
+   
+    font-size: large;
+    color: rgb(5, 5, 80);
+}
+.blockpartager{ 
+    list-style-type: none;
+    
+}
+.blockpartager li{
+    display: inline;
+    
+
+}
+.blockpartager li a{
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 0px;
+    color: black;
+    font-weight: bolder;
+    
+    
+}
+.blockorange{
+    
+    background-color: rgb(219, 64, 22);
+}
+.blockorange a{
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: larger;
+    color: white;
+    margin-left: 150px;
+}
+.flexcontainer2{
+    
+    display: flex;
+    flex-direction: row;
+  
+}
+footer{
+    color: white;
+    text-align: center;
+    background-color: rgb(0, 42, 73) ;
+    display:grid;
+    height: 100%;
+    grid-template-columns: 30% 30% 40%;
+    grid-template-areas: 
+    "footer1"
+    "footer2"
+    "footer3"
+    "footer4";
+
+
+}
+.footer4{
+    grid-column: 1 / 4;
+}
+ul{
+    list-style-type: none;
+    text-align: left;
+    padding: 0;
+    margin-left: 150px;
+}
+.liste1 li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    border-style: solid;
+    border-color: white;
+    border-radius: 18px;
+    padding: 8px 8px;
+    background-color: white;
+}
+.logo360{
+    margin-bottom: -12px;
+}
+
+.logomail2{
+    margin: 0px 6px -5px 0px;
+}
+.socialmedia{
+    margin:20px 0px;
+}
+.footer2 li a{
+    list-style-type: none;
+    text-decoration: none;
+    text-align: start;
+    color: white;
+    font-weight: bolder;
+    
+}
+.footer3{
+    text-align: left;
+    margin-top: 100px;
+    font-weight: bolder;
+    font-size: larger;
+
+}
+.footer3 span{
+    font-style: italic;
+}
+.footerbar{
+    list-style-type: none;
+    padding: 0;
+    text-align: end;
+    margin-right: 50px;
+
+}
+.footerbar li{
+    display: inline;
+    
+}
+.footer4 li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: small;
+}
+html{
+    font-family: Segoe UI;
+    margin:0;
+	padding:0;
+	height: max-content;
+}
